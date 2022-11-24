@@ -30,17 +30,11 @@ Then, verify, that your machine is ready by running
 ```console
 vagrant status
 ```
-This command should return *running*.
-
-Furthermore, a '.vagrant'-folder has been created in this directory. You must also be able to see the machine in [VirtualBox](https://www.virtualbox.org/wiki/Downloads), as shown in the figure below.
-
-![VagrantDefinedMachineInVirtualBox](Images/VagrantDefinedMachineInVirtualBox.png)
-
-We can ssh into the machine now by from the console
+This command should return *running*. Furthermore, a '.vagrant'-folder has been created in this directory. You must also be able to see the machine in [VirtualBox](https://www.virtualbox.org/wiki/Downloads). We can ssh into the machine now by from the console
 ```console
 vagrant ssh
 ```
-This commands automatically identifies the box and ssh'es into it because all necessary information is kept in the '.vagrant'-folder.
+This commands automatically identifies the box and ssh's into it because all necessary information is kept in the '.vagrant'-folder.
 
 ## Stoping and Deleting the Virtual Machine
 If your Vagrant box is still running, make sure it is shutdown by running
